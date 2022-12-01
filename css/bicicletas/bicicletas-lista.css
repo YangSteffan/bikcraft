@@ -13,11 +13,13 @@
     gap: 40px;
     padding: 0 20px 20px 20px;
     max-width: 1400px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     overflow-x: auto;
-}
+  }
 
 .bicicletas-lista li {
+    flex: 1;
     min-width: 280px;
 }
 
@@ -42,11 +44,11 @@
     width: 12px;
     margin-right: 8px;
     background-color: var(--pri-1);
+    transition: width 0.2s;
 }
 
 .bicicletas-lista a:hover h3::before {
     width: 24px;
-    transition: width 0.2s;
 }
 
 .bicicletas-lista li span {
